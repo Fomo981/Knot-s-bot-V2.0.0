@@ -1,0 +1,58 @@
+{
+  "bot-name": "Knot's Bot",
+  "description": "WhatsApp Bot by King Knot S — The Knot's Empire",
+  "keywords": ["knots-bot", "king-knot-s", "cameroon"],
+  "owner-verification": "knots-empire@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID. Scan QR on first run.",
+      "required": true,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Bot command prefix (. ! @ etc)",
+      "required": true,
+      "value": "."
+    },
+    "MODE": {
+      "description": "Bot mode: public / private / inbox / group",
+      "required": false,
+      "value": "public"
+    },
+    "OWNER_NAME": {
+      "description": "Bot owner name",
+      "required": false,
+      "value": "King Knot S"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner WhatsApp number (with country code, no +)",
+      "required": false,
+      "value": "237652894978"
+    },
+    "ANTILINK": {
+      "description": "Auto-delete links in groups",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_SPAM": {
+      "description": "Rate-limit spammers",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_DELETE": {
+      "description": "Recover deleted messages and notify owner",
+      "required": false,
+      "value": "true"
+    },
+    "REJECT_CALL": {
+      "description": "Auto-reject incoming calls",
+      "required": false,
+      "value": "false"
+    },
+    "WELCOME": {
+      "description": "Send welcome message to new group members",
+      "required": false,
+      "value": "true"
+    }
+  }
+}
