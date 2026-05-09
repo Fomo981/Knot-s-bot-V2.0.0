@@ -1,8 +1,17 @@
 # KNOT'S BOT v1.0
 ### By King Knot S | The Knot's Empire 🇨🇲
 
-A clean, safe, fully-featured WhatsApp bot built on Baileys.
-No obfuscated code. No external downloads. 100% yours.
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=8A2BE2&center=true&vCenter=true&width=1000&height=200&lines=king+knot+s+V2;VERSION+2.0.0;BY+king+knot+empire" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://files.catbox.moe/5lf68p.png" width="800"/>
+</p>
+---
+
 
 ---
 
