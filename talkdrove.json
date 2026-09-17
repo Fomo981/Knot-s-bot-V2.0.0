@@ -1,8 +1,8 @@
 {
-  "bot-name": "Knot's Bot",
-  "description": "WhatsApp Bot by King Knot S — The Knot's Empire",
-  "keywords": ["knots-bot", "king-knot-s", "cameroon"],
-  "owner-verification": "knots-empire@gmail.com",
+  "bot-name": "Lr Arcanon's Bot",
+  "description": "WhatsApp Bot by LORD ARCANON — The mage ",
+  "keywords": ["lr-arcanon", "lr-arcanon", "cameroon"],
+  "owner-verification": "fomolamelo@gmail.com",
   "env": {
     "SESSION_ID": {
       "description": "Your WhatsApp session ID. Scan QR on first run.",
@@ -22,7 +22,7 @@
     "OWNER_NAME": {
       "description": "Bot owner name",
       "required": false,
-      "value": "King Knot S"
+      "value": "Lr Arcanon"
     },
     "OWNER_NUMBER": {
       "description": "Owner WhatsApp number (with country code, no +)",
