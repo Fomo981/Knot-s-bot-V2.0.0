@@ -1,7 +1,7 @@
 // ╔══════════════════════════════════════════════════╗
-// ║           KNOT'S BOT v1.0.0                      ║
-// ║           Owner  : King Knot S                   ║
-// ║           Number : 237652894978                  ║
+// ║           LORD ARCANONv1.0.0                      ║
+// ║           Owner  : LORD ARCANON                   ║
+// ║           Number : 237650180380               ║
 // ╚══════════════════════════════════════════════════╝
 
 import 'dotenv/config';
@@ -33,10 +33,10 @@ const __dirname  = path.dirname(__filename);
 const {
   SESSION_ID,
   PREFIX        = '.',
-  OWNER_NUMBER  = '237652894978',
-  SUDO_NUMBER   = '237652894978',
-  OWNER_NAME    = 'King Knot S',
-  BOT_NAME      = "Knot's Bot",
+  OWNER_NUMBER  = '237650180380',
+  SUDO_NUMBER   = '237650180380',
+  OWNER_NAME    = 'Lord Arcanon',
+  BOT_NAME      = "Lr Arcanon's Bot",
   MODE          = 'public',
   ANTILINK      = 'true',
   ANTIBOT       = 'true',
@@ -108,8 +108,8 @@ async function getGroupAdmins(participants) {
 function printBanner() {
   console.log(chalk.cyan(`
 ╔══════════════════════════════════════════╗
-║        K N O T ' S   B O T  v1.0        ║
-║        Owner  : King Knot S             ║
+║        LORD ARCANON'S BOTv1.0        ║
+║        Owner  : Lr Arcanon             ║
 ║        Number : ${OWNER_NUMBER}        ║
 ╚══════════════════════════════════════════╝
   `));
@@ -127,7 +127,7 @@ async function startBot() {
     logger: pino({ level: 'silent' }),
     auth: state,
     printQRInTerminal: true,
-    browser: ["Knot's Bot", 'Chrome', '1.0.0'],
+    browser: ["Le Arcanon's Bot", 'Chrome', '1.0.0'],
     msgRetryCounterCache: new NodeCache(),
     generateHighQualityLinkPreview: true,
   });
@@ -144,7 +144,7 @@ async function startBot() {
       const code = lastDisconnect?.error?.output?.statusCode;
       const shouldReconnect = code !== DisconnectReason.loggedOut;
       log('red', 'DISCONNECTED', `Code: ${code} — ${shouldReconnect ? 'Reconnecting...' : 'Logged out.'}`);
-      if (shouldReconnect) setTimeout(startBot, 5000);
+      if (shouldReconnect) setTimeout(startBot, 3000);
     }
   });
 
@@ -366,7 +366,7 @@ ${PREFIX}antilinkson | ${PREFIX}antilinksoff
 ${PREFIX}broadcast | ${PREFIX}setbio | ${PREFIX}setname
 ${PREFIX}mode | ${PREFIX}clearcache | ${PREFIX}restart
 
-💡 Powered by *The Knot's Empire* 🇨🇲
+💡 Powered by *Lord Arcanon* 🇨🇲
 `;
             await sock.sendMessage(from, {
               image: { url: IMG_LOGO },
@@ -399,7 +399,7 @@ ${PREFIX}mode | ${PREFIX}clearcache | ${PREFIX}restart
 🛡️ AntiLink: ${ANTILINK === 'true' ? 'ON ✅' : 'OFF ❌'}
 🔇 AntiSpam: ${ANTI_SPAM === 'true' ? 'ON ✅' : 'OFF ❌'}
 
-💡 Powered by The Knot's Empire
+💡 Powered by Le Arcanon
 `);
             break;
           }
