@@ -1,9 +1,9 @@
-# DANGER BOT v2.0
-### DANGER MAN | THE HACKET BOYZ🇺🇲
+# Lr Arcanon's BOT v2.0
+### LORD ARCANON | THE MAGE🇺🇲
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=8A2BE2&center=true&vCenter=true&width=1000&height=200&lines=king+Danger+V2;VERSION+2.0.0;BY+The+Hacket+Boyz" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=8A2BE2&center=true&vCenter=true&width=1000&height=200&lines=king+Danger+V2;VERSION+2.0.0;BY+The+mage" alt="Typing SVG" />
   </a>
 </p>
 
@@ -77,4 +77,4 @@ Push to GitHub, connect repo, set env vars from `.env`.
 
 ---
 
-Made with ❤️ by **King Knot S** — The Knot's Empire
+Made with ❤️ by **Lr Arcanon** — The Mage
