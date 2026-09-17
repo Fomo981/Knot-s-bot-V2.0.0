@@ -1,16 +1,16 @@
 {
-  "name": "knots-bot",
+  "name": "Lord Arcanon",
   "version": "1.0.0",
-  "description": "Knot's Bot - WhatsApp Bot by King Knot S",
+  "description": "Lr Arcanon - WhatsApp Bot by Lr Arcanon",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "pm2": "pm2 start index.js --name 'Knots-Bot' --attach",
+    "pm2": "pm2 start index.js --name 'Arcanon-Bot' --attach",
     "dev": "node --watch index.js"
   },
-  "keywords": ["knots-bot", "whatsapp-bot", "king-knot-s"],
-  "author": "King Knot S",
+  "keywords": ["lr-arcanon", "whatsapp-bot", "lr-arcanon"],
+  "author": "Lord Arcanon",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.0",
